@@ -10,7 +10,7 @@ const Card = (props) => {
                 </p>
                 {
                     props.links.map((link, index) => (
-                        <a href={link.link} className="card__button">{link.name}</a>
+                        <a href={link.link} className="card__button">View on {link.name}</a>
                     ))
                 }
             </div>

@@ -32,24 +32,142 @@ class App extends Component {
               </div>
             </div>
         </section>
-        <section className="section-projects">
-            <div className="projects">
-              <div className="row">
-                <div className="col-md-3">
-                  <Card 
-                    title="Proj1"
-                    description="A nice project made entirely by me"
-                    image="img/p-1.jpg"
-                    links={[
-                      {
-                        name: "Github",
-                        link: "https://github.com/hututudor/landing-page"
-                      }
-                    ]}
-                  />
-                </div>
-              </div>
+        <section className="projects">
+          <div className="row">
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
             </div>
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+
+            <div className="col-md-4">
+              <Card 
+                title="Proj1"
+                description="A nice project made entirely by me"
+                image="img/p-2.jpg"
+                links={[
+                  {
+                    name: "Github",
+                    link: "https://github.com/hututudor/landing-page"
+                  }
+                ]}
+              />
+            
+            </div>
+          </div>
         </section>
       </div>
     );
