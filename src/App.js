@@ -1,25 +1,42 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ReactTypingEffect from 'react-typing-effect';
+import Card from './Card';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+      <div>
+        <header className="header">
+          <div className="header__main">
+            <h1 className="header__title">Tudor Hutu</h1>
+            <ReactTypingEffect
+              className="header__text"
+              staticText=">"
+              text={[
+                'Developer.',
+                'Designer.',
+                'Programmer.',
+              ]}
+              eraseDelay="3000"
+              speed="100"
+            />
+          </div>
         </header>
+        <section className="section-about">
+            <div className="about">
+              <h2 className="heading-primary">About my work</h2>
+              <div className="about__text-box">
+                <p className="about__text">
+                  I have done a series of projects, varying from web apps to games and even designed some websites. This is what I do and I like it. :)
+                </p>
+              </div>
+            </div>
+        </section>
+        <section className="section-projects">
+            <div className="projects">
+              
+            </div>
+        </section>
       </div>
     );
   }

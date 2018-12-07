@@ -1,0 +1,30 @@
+.header {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, .9), rgba($color-primary-dark, .9)), url('/img/header-1.jpg');
+    position: relative;
+
+    &__main {
+        @include absCenter();
+    }
+
+    &__title {
+        letter-spacing: .3rem;
+        font-size: 8rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $color-grey-light-1;
+    }
+
+    &__text {
+        text-align: center;
+        font-family: 'VT323';
+        font-size: 3rem;
+        text-transform: uppercase;
+        font-weight: 400;
+        color: $color-green-1;
+        text-align: left;
+        padding-left: 1rem;
+        background-color: $color-black;
+    }
+}
