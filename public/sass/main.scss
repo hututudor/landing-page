@@ -1,7 +1,6 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
-@import "node_modules/flexboxgrid-sass/flexboxgrid";
 
 @import "base/base";
 @import "base/typography";
@@ -10,4 +9,5 @@
 
 @import "components/header";
 @import "components/about";
- 
+@import "components/projects";
+@import "components/card"; 

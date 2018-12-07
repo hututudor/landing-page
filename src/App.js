@@ -23,18 +23,32 @@ class App extends Component {
           </div>
         </header>
         <section className="section-about">
-            <div className="about">
+            <div className="col-md-4 col-md-offset-4 col-sm-12 about">
               <h2 className="heading-primary">About my work</h2>
               <div className="about__text-box">
                 <p className="about__text">
-                  I have done a series of projects, varying from web apps to games and even designed some websites. This is what I do and I like it. :)
+                  I have done a series of projects, varying from web apps to games and even designed some websites. This is what I do and I like it. My speciality is web development. I love it!
                 </p>
               </div>
             </div>
         </section>
         <section className="section-projects">
             <div className="projects">
-              
+              <div className="row">
+                <div className="col-md-3">
+                  <Card 
+                    title="Proj1"
+                    description="A nice project made entirely by me"
+                    image="img/p-1.jpg"
+                    links={[
+                      {
+                        name: "Github",
+                        link: "https://github.com/hututudor/landing-page"
+                      }
+                    ]}
+                  />
+                </div>
+              </div>
             </div>
         </section>
       </div>
