@@ -17,8 +17,8 @@ class App extends Component {
                 'Designer.',
                 'Programmer.',
               ]}
-              eraseDelay="3000"
-              speed="100"
+              eraseDelay={3000}
+              speed={100}
             />
           </div>
         </header>
@@ -43,6 +43,10 @@ class App extends Component {
                   {
                     name: "Github",
                     link: "https://github.com/hututudor/landing-page"
+                  },
+                  {
+                    name: "my site",
+                    link: 'http://sd'
                   }
                 ]}
               />

@@ -2040,11 +2040,12 @@ body {
     width: 100%; }
   .card__container {
     padding: 2rem 0;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 2rem; }
   .card__description {
     font-size: 1.6rem;
     margin-bottom: 3rem; }
-  .card__button, .card__visited {
+  .card__button, .card__button:visited {
     background-color: #A55EEA;
     font-size: 1.6rem;
     text-decoration: none;
@@ -2055,3 +2056,27 @@ body {
   .card__button:hover {
     transform: translateY(-50px);
     box-shadow: 5 0 4rem rgba(0, 0, 0, 0.4); }
+
+.btn, .btn:visited, .btn:link {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4.5rem;
+  display: inline-block;
+  border-radius: 10rem;
+  transition: all .2s;
+  position: relative;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  border: none;
+  cursor: pointer; }
+
+.btn--purple {
+  color: #eee;
+  background-color: #A55EEA; }
+
+.btn--double {
+  margin-right: 1rem; }
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }

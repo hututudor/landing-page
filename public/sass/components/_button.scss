@@ -1,0 +1,32 @@
+.btn {
+    &,
+    &:visited,
+    &:link {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.5rem 4.5rem; 
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+
+        border: none;
+        cursor: pointer;
+    }
+
+    &--purple {
+        color: $color-grey-light-2;
+        background-color: $color-primary;
+    }
+
+    &--double {
+        margin-right: 1rem;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+    }
+}

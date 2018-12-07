@@ -12,6 +12,7 @@
     &__container {
         padding: 2rem 0;
         text-align: center;
+        margin-bottom: 2rem;
     }
 
     &__description {
@@ -20,7 +21,7 @@
     }
 
     &__button,
-    &__visited {
+    &__button:visited {
         background-color: $color-primary;
         font-size: 1.6rem;
         text-decoration: none;
