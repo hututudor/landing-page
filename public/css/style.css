@@ -1997,7 +1997,7 @@ body {
 .header {
   height: 100vh;
   background-size: cover;
-  background-image: linear-gradient(to right bottom, rgba(188, 133, 242, 0.9), rgba(117, 25, 206, 0.9)), url("/img/header-1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(188, 133, 242, 0.5), rgba(117, 25, 206, 0.5)), url("/img/header-1.jpg");
   position: relative; }
   .header__main {
     position: absolute;
@@ -2028,34 +2028,35 @@ body {
     text-align: center; }
 
 .projects {
-  padding: 20rem 0;
+  padding: 10rem 0 20rem 0;
   background: linear-gradient(to right bottom, #BC85F2, #7519CE); }
+  .projects__title {
+    font-size: 4rem;
+    color: #f7f7f7;
+    text-align: center;
+    text-transform: uppercase; }
 
 .card {
   border-radius: 4px;
   overflow: hidden;
   background-color: #eee;
-  margin: 10rem 5rem; }
+  margin: 10rem 5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+  transition: all .2s; }
   .card__image {
     width: 100%; }
   .card__container {
     padding: 2rem 0;
     text-align: center;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    padding: 0 2rem; }
   .card__description {
     font-size: 1.6rem;
     margin-bottom: 3rem; }
-  .card__button, .card__button:visited {
-    background-color: #A55EEA;
-    font-size: 1.6rem;
-    text-decoration: none;
-    border-radius: 100px;
-    padding: .5rem 1rem;
-    color: white;
-    transition: all .2s; }
-  .card__button:hover {
-    transform: translateY(-50px);
-    box-shadow: 5 0 4rem rgba(0, 0, 0, 0.4); }
+  .card__title {
+    font-size: 2rem; }
+  .card:hover {
+    transform: scale(1.05); }
 
 .btn, .btn:visited, .btn:link {
   text-transform: uppercase;

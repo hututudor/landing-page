@@ -33,11 +33,12 @@ class App extends Component {
             </div>
         </section>
         <section className="projects">
+          <h1 className="projects__title">Some of my projects</h1>
           <div className="row">
             <div className="col-md-4">
               <Card 
                 title="Proj1"
-                description="A nice project made entirely by me"
+                description="A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me"
                 image="img/p-2.jpg"
                 links={[
                   {
