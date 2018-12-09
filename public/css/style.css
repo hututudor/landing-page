@@ -1986,6 +1986,11 @@ body {
   .last-lg {
     order: 1; } }
 
+.col-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 .section-about {
   background-color: #f7f7f7;
   padding: 20rem 0; }
@@ -1993,6 +1998,9 @@ body {
 .section-projects {
   padding: 20rem 0;
   position: relative; }
+
+.section-skills {
+  padding: 10rem 0; }
 
 .header {
   height: 100vh;
@@ -2081,3 +2089,20 @@ body {
 .btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.skill {
+  background: #A55EEA;
+  text-align: center;
+  margin: 0 20% 3rem 20%;
+  color: #f7f7f7; }
+  .skill__text {
+    font-size: 4rem;
+    color: #A55EEA;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+  .skill__icon {
+    font-size: 10rem; }
+  .skill__title {
+    text-transform: uppercase;
+    font-size: 2rem; }

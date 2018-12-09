@@ -1,0 +1,41 @@
+{
+    "projects": [
+        {
+            "title": "Proj1",
+            "description": "A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me",
+            "image": "img/p-2.jpg",
+            "links": [
+                {
+                    "name": "Github",
+                    "link": "https://github.com/hututudor/landing-page"
+                },
+                {
+                    "name": "my site",
+                    "link": "http://google.com"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "icon": "devicon-laravel-plain",
+            "title": "Laravel"
+        },
+        {
+            "icon": "devicon-html5-plain",
+            "title": "Html"
+        },
+        {
+            "icon": "devicon-css3-plain",
+            "title": "Css"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "title": "Javascript"
+        },
+        {
+            "icon": "devicon-react-plain",
+            "title": "React"
+        }
+    ]
+}

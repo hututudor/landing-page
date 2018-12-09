@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Card from './Card';
+import Skill from './Skill';
+import data from './data.json'
 
 class App extends Component {
+
   render() {
     return (
       <div>
@@ -50,129 +53,24 @@ class App extends Component {
                     link: 'http://sd'
                   }
                 ]}
-              />
-            
-            </div>
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
-            </div>
-
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  }
-                ]}
-              />
-            
+              />            
             </div>
           </div>
+        </section>
+        <section className="section-skills">
+          <h1 className="skill__text">Technologies I know</h1>
+            <div className="row">
+                {
+                  data.skills.map((skill, index) => (
+                    <div className="col-md-3 col-centered" key={index}>
+                      <Skill 
+                        title={skill.title}
+                        icon={skill.icon}
+                      />
+                    </div>
+                  ))
+                }
+            </div>
         </section>
       </div>
     );
