@@ -10,10 +10,15 @@ $flexboxgrid-outer-margin: 1rem;
 }
 
 .section-projects {
-    padding: 20rem 0;
+    padding: 20rem 0 10rem 0;
     position: relative;
 }
 
 .section-skills {
     padding: 10rem 0;
+}
+
+.section-contact {
+    padding: 10rem 0;
+    background: $color-primary; //linear-gradient($color-primary-light, $color-primary-dark);
 }

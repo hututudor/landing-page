@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Card from './Card';
 import Skill from './Skill';
+import Contact from './Contact';
 import data from './data.json'
 
 class App extends Component {
@@ -38,23 +39,18 @@ class App extends Component {
         <section className="projects">
           <h1 className="projects__title">Some of my projects</h1>
           <div className="row">
-            <div className="col-md-4">
-              <Card 
-                title="Proj1"
-                description="A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me"
-                image="img/p-2.jpg"
-                links={[
-                  {
-                    name: "Github",
-                    link: "https://github.com/hututudor/landing-page"
-                  },
-                  {
-                    name: "my site",
-                    link: 'http://sd'
-                  }
-                ]}
-              />            
-            </div>
+              {
+                data.projects.map((project, index) => (
+                  <div className="col-md-4">
+                    <Card 
+                      title={project.title}
+                      description={project.description}
+                      image={project.image}
+                      links={project.links}
+                    />  
+                  </div>
+                ))
+              }          
           </div>
         </section>
         <section className="section-skills">
@@ -62,7 +58,7 @@ class App extends Component {
             <div className="row">
                 {
                   data.skills.map((skill, index) => (
-                    <div className="col-md-3 col-centered" key={index}>
+                    <div className="col-md-3 col-xs-12" key={index}>
                       <Skill 
                         title={skill.title}
                         icon={skill.icon}
@@ -71,6 +67,22 @@ class App extends Component {
                   ))
                 }
             </div>
+        </section>
+        <section className="section-contact">
+          <h1 className="contact__text">Contact me</h1>
+          <div className="row">
+              {
+                data.contacts.map((contact, index) => (
+                  <div className="col-md-4 col-xs-12" key={index}>
+                    <Contact 
+                      icon={contact.icon}
+                      title={contact.title}
+                      content={contact.content}
+                    />
+                  </div>
+                ))
+              }
+          </div>
         </section>
       </div>
     );

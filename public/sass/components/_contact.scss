@@ -1,13 +1,14 @@
-.skill {
-    background: $color-primary;
+.contact {
+    background: $color-grey-light-1;
     text-align: center;
     margin: 0 20% 3rem 20%;
-    color: $color-grey-light-1;
+    color: $color-primary;
     border-radius: 4px;
+
 
     &__text {
         font-size: 4rem;
-        color: $color-primary;
+        color: $color-grey-light-1;
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 4rem;
@@ -20,5 +21,10 @@
     &__title {
         text-transform: uppercase;
         font-size: 2rem;
+    }
+    
+    &__content{
+        font-size: 1.8rem;
+        padding-bottom: 2rem;
     }
 };

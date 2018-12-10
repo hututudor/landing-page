@@ -10,7 +10,7 @@
                     "link": "https://github.com/hututudor/landing-page"
                 },
                 {
-                    "name": "my site",
+                    "name": "my sdsds",
                     "link": "http://google.com"
                 }
             ]
@@ -36,6 +36,23 @@
         {
             "icon": "devicon-react-plain",
             "title": "React"
+        }
+    ],
+    "contacts" :[
+        {
+            "icon": "fas fa-phone",
+            "title": "Phone",
+            "content": "0728409833"
+        },
+        {
+            "icon": "fas fa-envelope",
+            "title": "E-mail",
+            "content": "hutu.tudor@yahoo.com"
+        },
+        {
+            "icon": "fas fa-map-marker-alt",
+            "title": "Location",
+            "content": "Iasi, Romania"
         }
     ]
 }

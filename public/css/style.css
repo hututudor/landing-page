@@ -18,6 +18,7 @@ body {
   color: #777; }
 
 .heading-primary {
+  text-transform: uppercase;
   color: #A55EEA;
   font-size: 4rem; }
 
@@ -1996,16 +1997,20 @@ body {
   padding: 20rem 0; }
 
 .section-projects {
-  padding: 20rem 0;
+  padding: 20rem 0 10rem 0;
   position: relative; }
 
 .section-skills {
   padding: 10rem 0; }
 
+.section-contact {
+  padding: 10rem 0;
+  background: #A55EEA; }
+
 .header {
   height: 100vh;
   background-size: cover;
-  background-image: linear-gradient(to right bottom, rgba(188, 133, 242, 0.5), rgba(117, 25, 206, 0.5)), url("/img/header-1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(188, 133, 242, 0.8), rgba(117, 25, 206, 0.8)), url("/img/header-1.jpg");
   position: relative; }
   .header__main {
     position: absolute;
@@ -2094,7 +2099,8 @@ body {
   background: #A55EEA;
   text-align: center;
   margin: 0 20% 3rem 20%;
-  color: #f7f7f7; }
+  color: #f7f7f7;
+  border-radius: 4px; }
   .skill__text {
     font-size: 4rem;
     color: #A55EEA;
@@ -2106,3 +2112,24 @@ body {
   .skill__title {
     text-transform: uppercase;
     font-size: 2rem; }
+
+.contact {
+  background: #f7f7f7;
+  text-align: center;
+  margin: 0 20% 3rem 20%;
+  color: #A55EEA;
+  border-radius: 4px; }
+  .contact__text {
+    font-size: 4rem;
+    color: #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 4rem; }
+  .contact__icon {
+    font-size: 10rem; }
+  .contact__title {
+    text-transform: uppercase;
+    font-size: 2rem; }
+  .contact__content {
+    font-size: 1.8rem;
+    padding-bottom: 2rem; }
