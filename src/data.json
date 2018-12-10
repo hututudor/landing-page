@@ -34,6 +34,50 @@
             "title": "Javascript"
         },
         {
+            "icon": "devicon-vuejs-plain",
+            "title": "Vue"
+        },
+        {
+            "icon": "devicon-csharp-plain",
+            "title": "C#"
+        },
+        {
+            "icon": "devicon-cplusplus-plain",
+            "title": "C++"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "title": "Java"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "title": "Python"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "title": "Git"
+        },
+        {
+            "icon": "devicon-bootstrap-plain",
+            "title": "Bootstrap"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "title": "C"
+        },
+        {
+            "icon": "devicon-jquery-plain",
+            "title": "Jquery"
+        },
+        {
+            "icon": "devicon-php-plain",
+            "title": "PHP"
+        },
+        {
+            "icon": "devicon-sass-plain",
+            "title": "SCSS"
+        },
+        {
             "icon": "devicon-react-plain",
             "title": "React"
         }
@@ -54,5 +98,6 @@
             "title": "Location",
             "content": "Iasi, Romania"
         }
-    ]
+    ],
+    "copyright_year": "2018" 
 }

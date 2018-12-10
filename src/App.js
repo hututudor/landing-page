@@ -84,6 +84,11 @@ class App extends Component {
               }
           </div>
         </section>
+        <footer className="footer">
+            <p className="footer__text">
+              Copyright &copy; {data.copyright_year} <a href="tudorhutu.ro" className="footer__link"> Hutu Tudor</a>.
+            </p>
+        </footer>
       </div>
     );
   }

@@ -2116,7 +2116,7 @@ body {
 .contact {
   background: #f7f7f7;
   text-align: center;
-  margin: 0 20% 3rem 20%;
+  margin: 0 20% 3rem 18%;
   color: #A55EEA;
   border-radius: 4px; }
   .contact__text {
@@ -2133,3 +2133,15 @@ body {
   .contact__content {
     font-size: 1.8rem;
     padding-bottom: 2rem; }
+
+.footer {
+  background: #333;
+  color: #f7f7f7;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5rem 0; }
+  .footer__text {
+    font-size: 1.7rem; }
+  .footer__link, .footer__link:visited {
+    color: #A55EEA;
+    text-decoration: none; }
