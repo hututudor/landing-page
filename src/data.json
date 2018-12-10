@@ -18,8 +18,24 @@
     ],
     "skills": [
         {
-            "icon": "devicon-laravel-plain",
-            "title": "Laravel"
+            "icon": "devicon-c-plain",
+            "title": "C"
+        },
+        {
+            "icon": "devicon-cplusplus-plain",
+            "title": "C++"
+        },
+        {
+            "icon": "devicon-csharp-plain",
+            "title": "C#"
+        },
+        {
+            "icon": "devicon-java-plain",
+            "title": "Java"
+        },
+        {
+            "icon": "devicon-python-plain",
+            "title": "Python"
         },
         {
             "icon": "devicon-html5-plain",
@@ -34,36 +50,12 @@
             "title": "Javascript"
         },
         {
-            "icon": "devicon-vuejs-plain",
-            "title": "Vue"
-        },
-        {
-            "icon": "devicon-csharp-plain",
-            "title": "C#"
-        },
-        {
-            "icon": "devicon-cplusplus-plain",
-            "title": "C++"
-        },
-        {
-            "icon": "devicon-java-plain",
-            "title": "Java"
-        },
-        {
-            "icon": "devicon-python-plain",
-            "title": "Python"
-        },
-        {
-            "icon": "devicon-git-plain",
-            "title": "Git"
+            "icon": "devicon-sass-plain",
+            "title": "SCSS"
         },
         {
             "icon": "devicon-bootstrap-plain",
             "title": "Bootstrap"
-        },
-        {
-            "icon": "devicon-c-plain",
-            "title": "C"
         },
         {
             "icon": "devicon-jquery-plain",
@@ -74,12 +66,20 @@
             "title": "PHP"
         },
         {
-            "icon": "devicon-sass-plain",
-            "title": "SCSS"
+            "icon": "devicon-laravel-plain",
+            "title": "Laravel"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "title": "Git"
         },
         {
             "icon": "devicon-react-plain",
             "title": "React"
+        },
+        {
+            "icon": "devicon-vuejs-plain",
+            "title": "Vue"
         }
     ],
     "contacts" :[
