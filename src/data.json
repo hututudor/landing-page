@@ -1,17 +1,28 @@
 {
     "projects": [
         {
-            "title": "Proj1",
-            "description": "A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me A nice project made entirely by me",
-            "image": "img/p-2.jpg",
+            "title": "Landing page",
+            "description": "My personal website's landing page, made with pure SCSS.",
+            "image": "img/p-1.png",
             "links": [
                 {
                     "name": "Github",
                     "link": "https://github.com/hututudor/landing-page"
                 },
                 {
-                    "name": "my sdsds",
-                    "link": "http://google.com"
+                    "name": "My site",
+                    "link": "http://tudorhutu.ro"
+                }
+            ]
+        },
+        {
+            "title": "Blog",
+            "description": "A blog app made by me, which has a lot of features. Build in Laravel.",
+            "image": "img/p-2.png",
+            "links": [
+                {
+                    "name": "My site",
+                    "link": "http://blog.tudorhutu.ro"
                 }
             ]
         }
