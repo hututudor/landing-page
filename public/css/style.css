@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  display: none; }
+
 *,
 *::after,
 *::before {
@@ -19,7 +22,7 @@ body {
 
 .heading-primary {
   text-transform: uppercase;
-  color: #A55EEA;
+  color: #1e90ff;
   font-size: 4rem; }
 
 .wrapper {
@@ -2005,12 +2008,12 @@ body {
 
 .section-contact {
   padding: 10rem 0;
-  background: #A55EEA; }
+  background: #1e90ff; }
 
 .header {
   height: 100vh;
   background-size: cover;
-  background-image: linear-gradient(to right bottom, rgba(188, 133, 242, 0.8), rgba(117, 25, 206, 0.8)), url("/img/header-1.jpg");
+  background-image: linear-gradient(to right bottom, rgba(117, 186, 253, 0.8), rgba(1, 105, 206, 0.8)), url("/img/header-1.jpg");
   position: relative; }
   .header__main {
     position: absolute;
@@ -2029,7 +2032,7 @@ body {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 400;
-    color: #0BE10B;
+    color: #0be10b;
     text-align: left;
     padding-left: 1rem;
     background-color: black; }
@@ -2042,7 +2045,7 @@ body {
 
 .projects {
   padding: 10rem 0 20rem 0;
-  background: linear-gradient(to right bottom, #BC85F2, #7519CE); }
+  background: linear-gradient(to right bottom, #75bafd, #0169ce); }
   .projects__title {
     font-size: 4rem;
     color: #f7f7f7;
@@ -2086,7 +2089,7 @@ body {
 
 .btn--purple {
   color: #eee;
-  background-color: #A55EEA; }
+  background-color: #1e90ff; }
 
 .btn--double {
   margin-right: 1rem; }
@@ -2096,14 +2099,14 @@ body {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
 .skill {
-  background: #A55EEA;
+  background: #1e90ff;
   text-align: center;
   margin: 0 20% 3rem 20%;
   color: #f7f7f7;
   border-radius: 4px; }
   .skill__text {
     font-size: 4rem;
-    color: #A55EEA;
+    color: #1e90ff;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 4rem; }
@@ -2117,7 +2120,7 @@ body {
   background: #f7f7f7;
   text-align: center;
   margin: 0 20% 3rem 18%;
-  color: #A55EEA;
+  color: #1e90ff;
   border-radius: 4px; }
   .contact__text {
     font-size: 4rem;
@@ -2143,5 +2146,5 @@ body {
   .footer__text {
     font-size: 1.7rem; }
   .footer__link, .footer__link:visited {
-    color: #A55EEA;
+    color: #1e90ff;
     text-decoration: none; }

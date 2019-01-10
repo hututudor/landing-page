@@ -1,17 +1,17 @@
-@import "abstracts/variables";
-@import "abstracts/mixins";
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/fixes';
 
+@import 'base/base';
+@import 'base/typography';
 
-@import "base/base";
-@import "base/typography";
+@import 'layout/layout';
 
-@import "layout/layout";
-
-@import "components/header";
-@import "components/about";
-@import "components/projects";
-@import "components/card"; 
-@import "components/button"; 
-@import "components/skill"; 
-@import "components/contact"; 
-@import "components/footer"; 
+@import 'components/header';
+@import 'components/about';
+@import 'components/projects';
+@import 'components/card';
+@import 'components/button';
+@import 'components/skill';
+@import 'components/contact';
+@import 'components/footer';
